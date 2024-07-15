@@ -19,7 +19,7 @@ function asignarTextoElemento(elemento, texto){         // la funcion recibe dos
 function verificarIntento(){
     if(intentos>oportunidades){
         asignarTextoElemento('p',`Se terminaron tus ${oportunidades} oportunidades de adivinar el numero secreto`);
-
+        limpiarCaja();
     }else{
 
             // usamos el metodo: getElementById especifico para trabjar con ID 
